@@ -1,0 +1,18 @@
+cd m:\projet_M2\react_native\backend
+npm start
+
+cd m:\projet_M2\react_native\front
+npx next dev --port 3002 --hostname 0.0.0.0
+
+cd m:\projet_M2\react_native\qr-app
+npx expo start --web
+
+----------------------------------------------------
+arret projet 
+
+taskkill /F /IM node.exe /IM powershell.exe /IM chrome.exe /IM msedge.exe /IM expo.exe /IM npm.exe /IM npx.exe
+
+Alternative (si la commande principale ne fonctionne pas)
+
+taskkill /F /IM node.exe
+taskkill /F /IM powershell.exe
